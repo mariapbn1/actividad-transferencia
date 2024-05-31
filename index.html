@@ -9,45 +9,45 @@
   <link rel="stylesheet" g href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css"
     integrity="sha512-KOWhIs2d8WrPgR4lTaFgxI35LLOp5PRki/DxQvb7mlP29YZ5iJ5v8tiLWF7JLk5nDBlgPP1gHzw96cZ77oD7zQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>Hoja de Vida</title>
+  <title>Curriculum</title>
   <link rel="shortcut icon" href="images/developer-logo.png"/>
 </head>
 
 <body>
   <header>
-    <section class="BarraInicio">
-      <div class="Logo">
-        <a href="index.html#home"><img src="./images/developer-logo.png" alt="LogoMaria" /></a>
+    <section class="header__page-top">
+      <div class="header__page-logo">
+        <a href="index.html#presentation"><img src="./images/developer-logo.png" alt="LogoMaria" /></a>
         <h1>PAULA BERMUDEZ</h1>
       </div>
       <nav>
-        <input type="checkbox" id="check" />
-        <label for="check" class="checkbtn">
+        <input type="checkbox" id="header__nav-check" />
+        <label for="check" class="header__nav-checkbtn">
           <i class="fa-solid fa-bars fa-sm" style="color: #f8e9e9"></i>
         </label>
-        <nav class="navbar">
-          <ul class="ListaInicio">
-            <li><a href="index.html#home">Inicio</a></li>
-            <li><a href="index.html#acercademi">Acerca de mi</a></li>
-            <li><a href="index.html#services">Conocimientos</a></li>
-            <li><a href="index.html#work">Experiencia Laboral</a></li>
-            <li><a href="index.html#estudios">Estudios</a></li>
-            <li><a href="index.html#contact">Contacto</a></li>
+        <nav class="header__nav-second">
+          <ul class="header__nav-list-top">
+            <li><a href="index.html#presentation">Inicio</a></li>
+            <li><a href="index.html#section__about-me">Acerca de mi</a></li>
+            <li><a href="index.html#section__knowledge">Conocimientos</a></li>
+            <li><a href="index.html#section__work-experience">Experiencia Laboral</a></li>
+            <li><a href="index.html#section__studies">Estudios</a></li>
+            <li><a href="index.html#section__contact">Contacto</a></li>
           </ul>
         </nav>
       </nav>
     </section>
 
-    <section id="home" class="presentacionInicio">
+    <section id="presentation" class="header__presentation">
       <h1>Hola, soy <span>Paula Bermudez</span></h1>
       <p>Desarrolladora BackEnd</p>
     </section>
   </header>
 
   <main>
-    <section id="acercademi">
+    <section id="section__about-me">
       <h2>Acerca de mi</h2>
-      <div class="acercademi">
+      <div class="div__about-me">
         <p>
           Tecnóloga en Análisis y Desarrollo de Sistemas de Información y
           futura ingeniera de software.
@@ -64,29 +64,29 @@
       </div>
     </section>
 
-    <section id="services">
+    <section id="section__knowledge">
       <h2>Conocimientos</h2>
-      <div class="cartasServicios">
-        <div class="cartaServicio">
-          <a href="index.html#home">
+      <div class="div__knowledge">
+        <div class="div__knowledge-second">
+          <a href="index.html#presentation">
             <i class="fa-solid fa-code fa-2xl" style="color: #ebebeb;"></i>
           </a>
           <h4>Desarrollo web</h4>
         </div>
-        <div class="cartaServicio">
-          <a href="index.html#home">
+        <div class="div__knowledge-second">
+          <a href="index.html#presentation">
             <i class="fa-solid fa-database fa-2xl" style="color: #ebebeb;"></i>
           </a>
           <h4>Gestión de Bases de Datos</h4>
         </div>
-        <div class="cartaServicio">
-          <a href="index.html#home">
+        <div class="div__knowledge-second">
+          <a href="index.html#presentation">
             <i class="fa-solid fa-laptop-code fa-2xl" style="color:#ebebeb;"></i>
           </a>
           <h4>Desarrollo BackEnd</h4>
         </div>
-        <div class="cartaServicio">
-          <a href="index.html#home">
+        <div class="div__knowledge-second">
+          <a href="index.html#presentation">
             <i class="fa-solid fa-code-branch fa-2xl" style="color:#ebebeb;"></i>
           </a>
           <h4>Control de Versiones</h4>
@@ -94,15 +94,15 @@
       </div>
     </section>
 
-    <section id="work">
+    <section id="section__work-experience">
       <h2>Experiencia Laboral</h2>
 
-      <div class="cartas">
+      <div class="div__work__cards-principal">
 
-        <div class="carta">
-          <div class="carta-content">
+        <div class="div__work__cards-second">
+          <div class="div__work__cards-content">
             <img src="./images/logo_outsourcing.png" alt="Outsourcing">
-            <div class="overlay">
+            <div class="div_work_cards-overlay">
               <h4>Practicante</h4>
               <p>2018 - 2019</p>
               <p>
@@ -114,10 +114,10 @@
           </div>
         </div>
 
-        <div class="carta">
-          <div class="carta-content">
+        <div class="div__work__cards-second">
+          <div class="div__work__cards-content">
             <img src="./images/logo__servinformacion.png" alt="Servinformacion">
-            <div class="overlay">
+            <div class="div_work_cards-overlay">
               <h4>Practicante</h4>
               <p>2021 - 2021</p>
               <p>
@@ -135,10 +135,10 @@
           </div>
         </div>
 
-        <div class="carta">
-          <div class="carta-content">
+        <div class="div__work__cards-second">
+          <div class="div__work__cards-content">
             <img src="./images/logo__servinformacion.png" alt="Servinformacion">
-            <div class="overlay">
+            <div class="div_work_cards-overlay">
               <h4>Ingeniero de Desarrollo</h4>
               <p>2021 - Actualmente</p>
               <p>
@@ -158,19 +158,19 @@
       </div>
     </section>
 
-    <section id="estudios">
+    <section id="section__studies">
       <h2>Estudios</h2>
-      <div class="cartasEstudios">
-        <div class="cartaEstudio">
-          <a href="index.html#home">
+      <div class="div__studies__cards-principal">
+        <div class="div__studies__cards-second">
+          <a href="index.html#presentation">
             <i class="fa-solid fa-laptop-code fa-2xl" style="color: #ffffff;"></i>
           </a>
           <h4>TÉCNICO EN PROGRAMACIÓN DE SOFTWARE</h4>
           <p>SENA</p>
           <p>2018 - 2019</p>
         </div>
-        <div class="cartaEstudio">
-          <a href="index.html#home">
+        <div class="div__studies__cards-second">
+          <a href="index.html#presentation">
             <i class="fa-regular fa-file-code fa-2xl" style="color: #ffffff;"></i>
           </a>
           <h4>TECNÓLOGO EN ANÁLISIS DE DESARROLLO Y SISTEMAS DE
@@ -179,8 +179,8 @@
           <p>2019 - 2021</p>
         </div>
 
-        <div class="cartaEstudio">
-          <a href="index.html#home">
+        <div class="div__studies__cards-second">
+          <a href="index.html#presentation">
             <i class="fa-brands fa-python fa-2xl" style="color: #f2f2f2;"></i>
           </a>
           <h4>INGENIERÍA DE SOFTWARE</h4>
@@ -188,9 +188,9 @@
           <p>2023 - Actualmente</p>
         </div>
       </div>
-      <div class="cartasEstudios">
-        <div class="cartaEstudio">
-          <a href="index.html#home">
+      <div class="div__studies__cards-principal">
+        <div class="div__studies__cards-second">
+          <a href="index.html#presentation">
             <i class="fa-solid fa-robot fa-2xl" style="color: #fcfcfc;"></i>
           </a>
           <h4>PYTHON 3</h4>
@@ -200,12 +200,12 @@
       </div>
     </section>
 
-    <section id="contact">
-      <div class="container">
-        <div class="contactinfo">
+    <section id="section__contact">
+      <div class="div__contact-container">
+        <div class="div__contact-information">
           <div>
             <h2>Información de Contacto</h2>
-            <ul class="info">
+            <ul class="ul__contact-information">
               <li>
                 <span><i class="fa-solid fa-location-dot"></i></span>
                 <span>Bogotá - Cundinamarca <br></span>
@@ -220,7 +220,7 @@
               </li>
             </ul>
           </div>
-          <ul class="sci">
+          <ul class="ul__contact-social">
             <li>
               <a href="https://www.instagram.com/berm_pm/>
                 <i class="fa-brands fa-instagram fa-lg"></i>
@@ -243,30 +243,30 @@
             </li>
           </ul>
         </div>
-        <div class="contactForm">
+        <div class="div__contact-form">
           <h2>Envíame un mensaje</h2>
-          <div class="formBox">
-            <div class="inputBox w50">
+          <div class="div__form-box">
+            <div class="div__form-input w50">
               <input type="text" name required>
               <span>Nombre</span>
             </div>
-            <div class="inputBox w50">
+            <div class="div__form-input w50">
               <input type="text" name required>
               <span>Apellido</span>
             </div>
-            <div class="inputBox w50">
+            <div class="div__form-input w50">
               <input type="text" name required>
               <span>Correo Electrónico</span>
             </div>
-            <div class="inputBox w50">
+            <div class="div__form-input w50">
               <input type="text" name required>
               <span>Número de Teléfono</span>
             </div>
-            <div class="inputBox w100">
+            <div class="div__form-input w100">
               <textarea name id required></textarea>
               <span>Escriba su mensaje aquí...</span>
             </div>
-            <div class="inputBox w100">
+            <div class="div__form-input w100">
               <input type="submit" value="Enviar">
             </div>
           </div>

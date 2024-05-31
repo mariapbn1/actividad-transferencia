@@ -17,7 +17,7 @@ header {
   
 }
 
-.BarraInicio {
+.header__page-top {
   width: 100%;
   height: 75px;
   font-size: 16px;
@@ -33,25 +33,25 @@ header {
   
 }
 
-.BarraInicio .Logo {
+.header__page-top .header__page-logo {
   display: flex;
   flex-direction: row;
   align-content: center;
 }
 
-.BarraInicio .Logo h1 {
+.header__page-top .header__page-logo h1 {
   align-self: center;
   font-size: 20px;
   color: #FFFFFF;
 }
 
-.BarraInicio .Logo a img {
+.header__page-top .header__page-logo a img {
   align-content: center;
   width: 100px;
   height: 100px;
 }
 
-.ListaInicio {
+.header__nav-list-top {
   display: flex;
   justify-content: center;
   color: #FFFFFF;
@@ -63,7 +63,7 @@ header {
   align-items: center;
 }
 
-.ListaInicio li a {
+.header__nav-list-top li a {
   text-decoration: none;
   color: #FFFFFF;
 }
@@ -72,11 +72,11 @@ header nav ul li a:hover {
   color: #BC91B2;
 }
 
-#check {
+#header__nav-check {
   display: none;
 }
 
-.checkbtn {
+.header__nav-checkbtn {
   font-size: 25px;
   color: white;
   float: right;
@@ -86,13 +86,13 @@ header nav ul li a:hover {
   display: none;
 }
 
-.presentacionInicio {
+.header__presentation {
   display: flex;
   align-items: center;
   text-shadow: 4px 4px 2px rgb(17 16 16 / 60%);
 }
 
-.presentacionInicio h1 {
+.header__presentation h1 {
   position: absolute;
   top: 150px;
   right: 100px;
@@ -101,11 +101,11 @@ header nav ul li a:hover {
   color: #FFFFFF;
 }
 
-.presentacionInicio h1 span {
+.header__presentation h1 span {
   color: #BC91B2;
 }
 
-.presentacionInicio p {
+.header__presentation p {
   position: absolute;
   top: 200px;
   right: 100px;
@@ -114,7 +114,7 @@ header nav ul li a:hover {
   color: #FFFFFF;
 }
 
-.presentacionInicio p span {
+.header__presentation p span {
   color: #FFFFFF;
 }
 
@@ -132,7 +132,7 @@ h2 {
   font-size: 50px;
 }
 
-#acercademi {
+#section__about-me {
   padding-top: 80px;
   display: flex;
   flex-direction: column;
@@ -144,7 +144,7 @@ h2 {
   background-repeat: no-repeat;
 }
 
-.acercademi {
+.div__about-me {
   display: flex;
   flex-direction: row;
   text-align: right;
@@ -155,32 +155,32 @@ h2 {
   margin-bottom: 60px;
 }
 
-.acercademi img {
+.div__about-me img {
   border: 1px solid rgb(224, 214, 214);
   width: 30%;
   border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 18px 50px -10px;
 }
 
-.acercademi p {
+.div__about-me p {
   width: 30%;
   line-height: 35px;
   font-size: 20px;
   color: #432e3e;
 }
 
-/*------work------*/
-#work {
+/*------section__section__work-experience-experience------*/
+#section__work-experience {
   width: 100%;
   padding-top: 70px;
   background-color: #FFFFFF;
 }
 
-#work h2 {
+#section__work-experience h2 {
   color: #3C2232;
 }
 
-.cartas {
+.div__work__cards-principal {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -188,7 +188,7 @@ h2 {
   gap: 30px;
 }
 
-.cartas .carta {
+.div__work__cards-principal .div__work__cards-second {
   position: relative;
   width: 280px;
   height: 400px;
@@ -205,13 +205,13 @@ h2 {
   backdrop-filter: blur(5px);
 }
 
-.cartas .carta .carta-content img {
+.div__work__cards-principal .div__work__cards-second .div__work__cards-content img {
   transform: translateY(130px);
   opacity: 1;
   width: 100%;
 }
 
-.cartas .carta .carta-content .overlay{
+.div__work__cards-principal .div__work__cards-second .div__work__cards-content .div_work_cards-overlay{
   padding: 10px;
   text-align: center;
   transform: translateY(100px);
@@ -219,24 +219,24 @@ h2 {
   transition: 0.5s;
 }
 
-.cartas .carta:hover .carta-content .overlay{
+.div__work__cards-principal .div__work__cards-second:hover .div__work__cards-content .div_work_cards-overlay{
   transform: translateY(0px);
   opacity: 1;
 }
 
-.cartas .carta:hover .carta-content img {
+.div__work__cards-principal .div__work__cards-second:hover .div__work__cards-content img {
   transform: translateY(0px);
   width: 0%;
   opacity: 0;
 }
 
-.cartas .carta .carta-content h4 {
+.div__work__cards-principal .div__work__cards-second .div__work__cards-content h4 {
   font-size: 1.8em;
   color: #3C2232;
   z-index: 1;
 }
 
-.cartas .carta .carta-content p {
+.div__work__cards-principal .div__work__cards-second .div__work__cards-content p {
   font-size: 18px;
   color: #777473;
   font-weight: 300;
@@ -245,18 +245,18 @@ h2 {
 
 
 /*------servicios------*/
-#services {
+#section__knowledge {
   padding-top: 80px;
   padding-bottom: 50px;
   background-color: #3C2232;
   text-shadow: 5px 5px 3px rgb(17 16 16 / 60%);
 }
 
-#services h2 {
+#section__knowledge h2 {
   color: #FFFFFF;
 }
 
-.cartasServicios {
+.div__knowledge {
   padding-top: 50px;
   display: flex;
   flex-wrap: wrap;
@@ -265,7 +265,7 @@ h2 {
   gap: 5%;
 }
 
-.cartaServicio {
+.div__knowledge-second {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -274,14 +274,14 @@ h2 {
   gap: 5%;
 }
 
-.cartaServicio a {
+.div__knowledge-second a {
   width: 100%;
   padding-bottom: 10px;
   line-height: 3rem;
   
 }
 
-.cartaServicio h4 {
+.div__knowledge-second h4 {
   width: 100%;
   color: #FFFFFF;
   height: 3rem;
@@ -289,7 +289,7 @@ h2 {
 }
 
 /*------estudio------*/
-#estudios {
+#section__studies {
   padding-top: 80px;
   padding-bottom: 50px;
   background-color: #754071;
@@ -297,11 +297,11 @@ h2 {
   text-shadow: 4px 4px 2px rgb(17 16 16 / 60%);
 }
 
-#estudios h2 {
+#section__studies h2 {
   color: #FFFFFF;
 }
 
-.cartasEstudios {
+.div__studies__cards-principal {
   padding-top: 50px;
   display: flex;
   flex-wrap: wrap;
@@ -311,7 +311,7 @@ h2 {
   text-shadow: 3px 3px 1px rgb(17 16 16 / 60%);
 }
 
-.cartaEstudio {
+.div__studies__cards-second {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -320,19 +320,19 @@ h2 {
   gap: 5px;
 }
 
-.cartaEstudio a {
+.div__studies__cards-second a {
   width: 100%;
   padding-bottom: 20px;
 }
 
-.cartaEstu5dio h4 {
+.div__studies__cards-second h4 {
   width: 100%;
   justify-self: center;
 }
 
 /* Contacto */
 
-#contact {
+#section__contact {
   position: relative;
   justify-content: center;
   align-items: center;
@@ -341,7 +341,7 @@ h2 {
   background: #7f6178;
 }
 
-#contact::before {
+#section__contact::before {
   content: '';
   position: absolute;
   top: 0;
@@ -351,14 +351,14 @@ h2 {
   background: #BC91B2;
 }
 
-#contact .container {
+#section__contact .div__contact-container {
   position: relative;
   min-width: 1100px;
   min-height: 650px;
   display: flex;
 }
 
-#contact .container .contactinfo {
+#section__contact .div__contact-container .div__contact-information {
   position: absolute;
   top: 30px;
   left: 50px;
@@ -372,18 +372,18 @@ h2 {
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
 }
 
-#contact .container .contactinfo h2 {
+#section__contact .div__contact-container .div__contact-information h2 {
   color: #FFFFFF;
   font-size: 20px;
   font-weight: 500;
 }
 
-#contact .container .contactinfo .info {
+#section__contact .div__contact-container .div__contact-information .ul__contact-information {
   position: relative;
   margin: 20px 0;
 }
 
-#contact .container .contactinfo .info li {
+#section__contact .div__contact-container .div__contact-information .ul__contact-information li {
   position: relative;
   list-style: none;
   display: flex;
@@ -392,18 +392,18 @@ h2 {
   align-items: flex-start;
 }
 
-#contact .container .contactinfo .info li span:nth-child(1) {
+#section__contact .div__contact-container .div__contact-information .ul__contact-information li span:nth-child(1) {
   width: 30px;
   min-height: 30px;
 }
 
-#contact .container .contactinfo .info li span:nth-child(1) i {
+#section__contact .div__contact-container .div__contact-information .ul__contact-information li span:nth-child(1) i {
   max-width: 100%;
   color: #000000;
   opacity: 0.5;
 }
 
-#contact .container .contactinfo .info li span:nth-child(2) {
+#section__contact .div__contact-container .div__contact-information .ul__contact-information li span:nth-child(2) {
   font-size: 16px;
   color: #FFFFFF;
   margin-left: 10px;
@@ -411,35 +411,35 @@ h2 {
   opacity: 0.5;
 }
 
-#contact .container .contactinfo .info li:hover span:nth-child(1) i,
-#contact .container .contactinfo .info li:hover span:nth-child(2) {
+#section__contact .div__contact-container .div__contact-information .ul__contact-information li:hover span:nth-child(1) i,
+#section__contact .div__contact-container .div__contact-information .ul__contact-information li:hover span:nth-child(2) {
   opacity: 1;
 }
 
-#contact .container .contactinfo .sci {
+#section__contact .div__contact-container .div__contact-information .ul__contact-social {
   position: relative;
   display: flex;
 }
 
-#contact .container .contactinfo .sci li {
+#section__contact .div__contact-container .div__contact-information .ul__contact-social li {
   list-style: none;
   margin-right: 15px;
 }
 
-#contact .container .contactinfo .sci li a {
+#section__contact .div__contact-container .div__contact-information .ul__contact-social li a {
   text-decoration: none;
 }
 
-#contact .container .contactinfo .sci li a i {
+#section__contact .div__contact-container .div__contact-information .ul__contact-social li a i {
   color: #000000;
   opacity: 0.5;
 }
 
-#contact .container .contactinfo .sci li:hover a i {
+#section__contact .div__contact-container .div__contact-information .ul__contact-social li:hover a i {
   opacity: 1;
 }
 
-#contact .container .contactForm {
+#section__contact .div__contact-container .div__contact-form {
   padding: 100px 50px;
   background: #FFFFFF;
   margin-left: 150px;
@@ -449,13 +449,13 @@ h2 {
   box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
 }
 
-#contact .container .contactForm h2 {
+#section__contact .div__contact-container .div__contact-form h2 {
   color: #3C2232;
   font-size: 24px;
   font-weight: 500;
 }
 
-#contact .container .contactForm .formBox {
+#section__contact .div__contact-container .div__contact-form .div__form-box {
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -463,21 +463,21 @@ h2 {
   padding-top: 30px;
 }
 
-#contact .container .contactForm .formBox .inputBox {
+#section__contact .div__contact-container .div__contact-form .div__form-box .div__form-input {
   position: relative;
   margin: 0 0 35px 0;
 }
 
-#contact .container .contactForm .formBox .inputBox.w50 {
+#section__contact .div__contact-container .div__contact-form .div__form-box .div__form-input.w50 {
   width: 47%;
 }
 
-#contact .container .contactForm .formBox .inputBox.w100 {
+#section__contact .div__contact-container .div__contact-form .div__form-box .div__form-input.w100 {
   width: 100%;
 }
 
-#contact .container .contactForm .formBox .inputBox input,
-#contact .container .contactForm .formBox .inputBox textarea {
+#section__contact .div__contact-container .div__contact-form .div__form-box .div__form-input input,
+#section__contact .div__contact-container .div__contact-form .div__form-box .div__form-input textarea {
   width: 100%;
   padding: 5px 0;
   font-size: 18px;
@@ -488,11 +488,11 @@ h2 {
   outline: none;
 }
 
-#contact .container .contactForm .formBox .inputBox textarea {
+#section__contact .div__contact-container .div__contact-form .div__form-box .div__form-input textarea {
   min-height: 120px;
 }
 
-#contact .container .contactForm .formBox .inputBox span {
+#section__contact .div__contact-container .div__contact-form .div__form-box .div__form-input span {
   position: absolute;
   left: 0;
   padding: 5px 0;
@@ -503,10 +503,10 @@ h2 {
   pointer-events: none;
 }
 
-#contact .container .contactForm .formBox .inputBox input:focus ~ span,
-#contact .container .contactForm .formBox .inputBox textarea:focus ~ span,
-#contact .container .contactForm .formBox .inputBox input:valid ~ span,
-#contact .container .contactForm .formBox .inputBox textarea:valid ~ span {
+#section__contact .div__contact-container .div__contact-form .div__form-box .div__form-input input:focus ~ span,
+#section__contact .div__contact-container .div__contact-form .div__form-box .div__form-input textarea:focus ~ span,
+#section__contact .div__contact-container .div__contact-form .div__form-box .div__form-input input:valid ~ span,
+#section__contact .div__contact-container .div__contact-form .div__form-box .div__form-input textarea:valid ~ span {
   transform: translateY(-20px);
   font-size: 12px;
   font-weight: 400;
@@ -514,7 +514,7 @@ h2 {
   color: #3b3b3b;
 }
 
-#contact .container .contactForm .formBox .inputBox input[type="submit"] {
+#section__contact .div__contact-container .div__contact-form .div__form-box .div__form-input input[type="submit"] {
   position: relative;
   cursor: pointer;
   background: #3C2232;
@@ -524,7 +524,7 @@ h2 {
   padding: 12px;
 }
 
-#contact .container .contactForm .formBox .inputBox input[type="submit"]:hover {
+#section__contact .div__contact-container .div__contact-form .div__form-box .div__form-input input[type="submit"]:hover {
   background: #92747d;
 }
 
@@ -557,11 +557,11 @@ footer p {
 @media (max-width: 1000px) {
   /*------header------*/
 
-  .checkbtn {
+  .header__nav-checkbtn {
     display: block;
   }
 
-  .navbar {
+  .header__nav-second {
     height: 0vh;
     position: absolute;
     top: 80px;
@@ -573,7 +573,7 @@ footer p {
     overflow: hidden;
   }
 
-  .navbar ul.ListaInicio {
+  .header__nav-second ul.header__nav-list-top {
     float: none;
     display: block;
     width: 174px;
@@ -581,55 +581,55 @@ footer p {
     opacity: 0;
   }
 
-  .navbar ul.ListaInicio li{
+  .header__nav-second ul.header__nav-list-top li{
     line-height: 15vh;
   }
 
-  .navbar ul.ListaInicio li a:hover {
+  .header__nav-second ul.header__nav-list-top li a:hover {
     color: #7e1b67;
   }
   /* ACTIVE */
-  .navbar.active {
+  .header__nav-second.active {
     height: 100vh;
   }
 
-  .navbar.active ul.ListaInicio {
+  .header__nav-second.active ul.header__nav-list-top {
     opacity: 1;
   }
 
-  .presentacionInicio h1 {
+  .header__presentation h1 {
     top: 100px;
     left: 10px;
   }
-  .presentacionInicio p {
+  .header__presentation p {
     top: 230px;
     left: 10px;
   }
 
   /*------main------*/
 
-  #acercademi {
+  #section__about-me {
   background-image: none;
   background-color: rgb(255, 255, 255);
   }
 
-  .acercademi {
+  .div__about-me {
     flex-direction: column-reverse;
     margin: 1%;
   }
 
-  .acercademi img {
+  .div__about-me img {
     width: 50%;
   }
 
-  .acercademi p {
+  .div__about-me p {
     width: 100%;
     text-align: center;
   }
   
 
   /*------formulario------*/
-#contact {
+#section__contact {
   position: relative;
   justify-content: center;
   align-items: center;
@@ -638,7 +638,7 @@ footer p {
   background: #7f6178;
 }
 
-#contact::before {
+#section__contact::before {
   content: '';
   position: absolute;
   top: 0;
@@ -648,7 +648,7 @@ footer p {
   background: #BC91B2;
 }
 
-#contact .container {
+#section__contact .div__contact-container {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -658,14 +658,14 @@ footer p {
   box-sizing: border-box;
 }
 
-#contact .container .contactinfo,
-#contact .container .contactForm {
+#section__contact .div__contact-container .div__contact-information,
+#section__contact .div__contact-container .div__contact-form {
   width: 100%;
   max-width: 600px;
   box-sizing: border-box;
 }
 
-#contact .container .contactinfo {
+#section__contact .div__contact-container .div__contact-information {
   position: relative;
   top: 0;
   left: 0;
@@ -678,17 +678,17 @@ footer p {
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
 }
 
-#contact .container .contactinfo h2 {
+#section__contact .div__contact-container .div__contact-information h2 {
   color: #FFFFFF;
   font-size: 20px;
   font-weight: 500;
 }
 
-#contact .container .contactinfo .info {
+#section__contact .div__contact-container .div__contact-information .ul__contact-information {
   margin: 20px 0;
 }
 
-#contact .container .contactinfo .info li {
+#section__contact .div__contact-container .div__contact-information .ul__contact-information li {
   list-style: none;
   display: flex;
   margin: 20px 0;
@@ -696,75 +696,75 @@ footer p {
   align-items: flex-start;
 }
 
-#contact .container .contactinfo .info li span:nth-child(1) {
+#section__contact .div__contact-container .div__contact-information .ul__contact-information li span:nth-child(1) {
   width: 30px;
   min-height: 30px;
 }
 
-#contact .container .contactinfo .info li span:nth-child(1) i {
+#section__contact .div__contact-container .div__contact-information .ul__contact-information li span:nth-child(1) i {
   max-width: 100%;
   color: #000;
   opacity: 0.5;
 }
 
-#contact .container .contactinfo .info li span:nth-child(2) {
+#section__contact .div__contact-container .div__contact-information .ul__contact-information li span:nth-child(2) {
   color: #FFFFFF;
   margin-left: 10px;
   font-weight: 300;
   opacity: 0.5;
 }
 
-#contact .container .contactinfo .info li:hover span:nth-child(1) i,
-#contact .container .contactinfo .info li:hover span:nth-child(2) {
+#section__contact .div__contact-container .div__contact-information .ul__contact-information li:hover span:nth-child(1) i,
+#section__contact .div__contact-container .div__contact-information .ul__contact-information li:hover span:nth-child(2) {
   opacity: 1;
 }
 
-#contact .container .contactinfo .sci {
+#section__contact .div__contact-container .div__contact-information .ul__contact-social {
   display: flex;
 }
 
-#contact .container .contactinfo .sci li {
+#section__contact .div__contact-container .div__contact-information .ul__contact-social li {
   list-style: none;
   margin-right: 15px;
 }
 
-#contact .container .contactinfo .sci li a {
+#section__contact .div__contact-container .div__contact-information .ul__contact-social li a {
   text-decoration: none;
 }
 
-#contact .container .contactinfo .sci li a i {
+#section__contact .div__contact-container .div__contact-information .ul__contact-social li a i {
   color: #000000;
   opacity: 0.5;
 }
 
-#contact .container .contactinfo .sci li:hover a i {
+#section__contact .div__contact-container .div__contact-information .ul__contact-social li:hover a i {
   opacity: 1;
 }
 
-#contact .container .contactForm {
+#section__contact .div__contact-container .div__contact-form {
   background: #FFFFFF;
   padding: 20px;
   box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
 }
 
-#contact .container .contactForm h2 {
+#section__contact .div__contact-container .div__contact-form h2 {
   color: #3C2232;
   font-size: 24px;
   font-weight: 500;
 }
 
-#contact .container .contactForm .formBox {
+#section__contact .div__contact-container .div__contact-form .div__form-box {
   display: flex;
   flex-direction: column;
   padding-top: 20px;
 }
 
-#contact .container .contactForm .formBox .inputBox {
+#section__contact .div__contact-container .div__contact-form .div__form-box .div__form-input {
   margin: 0 0 15px 0;
 }
 
-#contact .container .contactForm .formBox .inputBox input,
-#contact .container .contactForm .formBox .inputBox textarea {
+#section__contact .div__contact-container .div__contact-form .div__form-box .div__form-input input,
+#section__contact .div__contact-container .div__contact-form .div__form-box .div__form-input textarea {
   width: 100%;
   padding: 5px 0;
   font-size: 18px;
@@ -775,11 +775,11 @@ footer p {
   outline: none;
 }
 
-#contact .container .contactForm .formBox .inputBox textarea {
+#section__contact .div__contact-container .div__contact-form .div__form-box .div__form-input textarea {
   min-height: 120px;
 }
 
-#contact .container .contactForm .formBox .inputBox span {
+#section__contact .div__contact-container .div__contact-form .div__form-box .div__form-input span {
   position: absolute;
   left: 0;
   padding: 5px 0;
@@ -790,10 +790,10 @@ footer p {
   pointer-events: none;
 }
 
-#contact .container .contactForm .formBox .inputBox input:focus ~ span,
-#contact .container .contactForm .formBox .inputBox textarea:focus ~ span,
-#contact .container .contactForm .formBox .inputBox input:valid ~ span,
-#contact .container .contactForm .formBox .inputBox textarea:valid ~ span {
+#section__contact .div__contact-container .div__contact-form .div__form-box .div__form-input input:focus ~ span,
+#section__contact .div__contact-container .div__contact-form .div__form-box .div__form-input textarea:focus ~ span,
+#section__contact .div__contact-container .div__contact-form .div__form-box .div__form-input input:valid ~ span,
+#section__contact .div__contact-container .div__contact-form .div__form-box .div__form-input textarea:valid ~ span {
   transform: translateY(-20px);
   font-size: 12px;
   font-weight: 400;
@@ -801,7 +801,7 @@ footer p {
   color: #3b3b3b;
 }
 
-#contact .container .contactForm .formBox .inputBox input[type="submit"] {
+#section__contact .div__contact-container .div__contact-form .div__form-box .div__form-input input[type="submit"] {
   cursor: pointer;
   background: #3C2232;
   color: #FFFFFF;
@@ -810,29 +810,29 @@ footer p {
   padding: 12px;
 }
 
-#contact .container .contactForm .formBox .inputBox input[type="submit"]:hover {
+#section__contact .div__contact-container .div__contact-form .div__form-box .div__form-input input[type="submit"]:hover {
   background: #92747d;
 }
 
 @media (max-width: 1000px) {
-  #contact::before {
+  #section__contact::before {
     width: 100%;
     height: 50%;
   }
 
-  #contact .container {
+  #section__contact .div__contact-container {
     min-width: auto;
     flex-direction: column;
     padding: 10px;
   }
 
-  #contact .container .contactinfo,
-  #contact .container .contactForm {
+  #section__contact .div__contact-container .div__contact-information,
+  #section__contact .div__contact-container .div__contact-form {
     margin: 10px 0;
     padding: 20px;
   }
 
-  #contact .container .contactForm {
+  #section__contact .div__contact-container .div__contact-form {
     margin-left: 0;
     padding-left: 20px;
   }
