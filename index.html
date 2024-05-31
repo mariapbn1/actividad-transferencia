@@ -3,28 +3,35 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/style.css" />
-  <script src="/js/script.js" defer></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- Enlace a la hoja de estilos externa -->
+  <link rel="stylesheet" href="css/style.css"/>
+  <!-- Enlace a la biblioteca de iconos Font Awesome -->
   <link rel="stylesheet" g href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css"
     integrity="sha512-KOWhIs2d8WrPgR4lTaFgxI35LLOp5PRki/DxQvb7mlP29YZ5iJ5v8tiLWF7JLk5nDBlgPP1gHzw96cZ77oD7zQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <!-- Título de la página -->
   <title>Curriculum</title>
+  <!-- Icono de la página -->
   <link rel="shortcut icon" href="images/developer-logo.png"/>
 </head>
 
 <body>
   <header>
+    <!-- Sección superior del encabezado -->
     <section class="header__page-top">
       <div class="header__page-logo">
+        <!-- Logotipo con enlace a la sección de presentación -->
         <a href="index.html#presentation"><img src="./images/developer-logo.png" alt="LogoMaria" /></a>
         <h1>PAULA BERMUDEZ</h1>
       </div>
       <nav>
+        <!-- Checkbox para el control del menú en dispositivos móviles -->
         <input type="checkbox" id="header__nav-check" />
         <label for="check" class="header__nav-checkbtn">
           <i class="fa-solid fa-bars fa-sm" style="color: #f8e9e9"></i>
         </label>
+        <!-- Navegación secundaria -->
         <nav class="header__nav-second">
           <ul class="header__nav-list-top">
             <li><a href="index.html#presentation">Inicio</a></li>
@@ -38,6 +45,7 @@
       </nav>
     </section>
 
+    <!-- Sección de presentación -->
     <section id="presentation" class="header__presentation">
       <h1>Hola, soy <span>Paula Bermudez</span></h1>
       <p>Desarrolladora BackEnd</p>
@@ -45,6 +53,7 @@
   </header>
 
   <main>
+    <!-- Sección Acerca de mí -->
     <section id="section__about-me">
       <h2>Acerca de mi</h2>
       <div class="div__about-me">
@@ -64,6 +73,7 @@
       </div>
     </section>
 
+    <!-- Sección Conocimientos -->
     <section id="section__knowledge">
       <h2>Conocimientos</h2>
       <div class="div__knowledge">
@@ -94,11 +104,10 @@
       </div>
     </section>
 
+    <!-- Sección Experiencia Laboral -->
     <section id="section__work-experience">
       <h2>Experiencia Laboral</h2>
-
       <div class="div__work__cards-principal">
-
         <div class="div__work__cards-second">
           <div class="div__work__cards-content">
             <img src="./images/logo_outsourcing.png" alt="Outsourcing">
@@ -158,6 +167,7 @@
       </div>
     </section>
 
+    <!-- Sección Estudios -->
     <section id="section__studies">
       <h2>Estudios</h2>
       <div class="div__studies__cards-principal">
@@ -200,6 +210,7 @@
       </div>
     </section>
 
+    <!-- Sección Contacto -->
     <section id="section__contact">
       <div class="div__contact-container">
         <div class="div__contact-information">
@@ -275,6 +286,7 @@
     </section>
   </main>
 
+  <!-- Pie de página -->
   <footer>
     <section>
       <p id="copyright">Creado por Paula Bermudez</p>
