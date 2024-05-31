@@ -24,9 +24,9 @@ El proyecto está compuesto por varios archivos y directorios organizados de la 
 │ ├── logo_outsourcing.png
 │ ├── logo_servinformacion.png
 │ └── fondo.jpg
+├── .gitignore
 ├── index.html
-├── README.md
-└── .gitignore
+└── README.md
 ```
 
 ### Archivos y Directorios Principales
